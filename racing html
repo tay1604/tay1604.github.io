@@ -15,3 +15,24 @@
   </center>
 </div>
 
+<div class="racetrack" id="racetrack">
+  <img class="character" id="gary" src="gary the snail.png" />
+  <img class="character" id="gary1" src="Mary's_ex_boyfriend_in_Gary_in_Love.png" />
+</div>
+
+<div class="control" id="control">
+  <center>
+    <img class="controls id="controls" onclick="startRace()" src="red light.png" />
+  <center>
+</div>
+
+<div class="resError" id="resError">
+  Screen size resolution is too small to view this race<br/><br/>
+  Please maximize your browser and refresh<br/>
+  or view using a different workstation.<br/><br/>
+  Thank you!!
+</div>
+<script type="text/javascript" src="racinggame.js></script>
+
+</body>
+</html>
