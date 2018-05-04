@@ -1,0 +1,63 @@
+body {
+  background-color: #000000;
+  background-image: url("spongebob-bikini-bottom-clipart-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center-top;
+  border-style: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  }
+ 
+ div.banners {
+  text-align: center;
+  position: relative;
+  top: 0px;
+  height: 80px;
+  border-style: none;
+  padding: 0px;
+  }
+
+div.racetrack {
+  position: relative;
+  top: 80px;
+  left: 0px;
+  height: 225px;
+  border-style: none;
+  padding: 0px;
+  }
+  
+div.resError {
+  background-color: #000000;
+  position: relative;
+  display: none;
+  text-align: center;
+  top: 80px;
+  left: 0px;
+  border-style: none;
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+  }
+  
+div.control {
+  position: relative;
+  top: 50px;
+  height: 380px;
+  border-style: none;
+  padding: 0px;
+  }
+  
+#gary {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  }
+
+#gary {
+  position: absolute;
+  top: 140px;
+  left: 10px;
+  }
+
+    
+    
