@@ -65,8 +65,8 @@ var xfinal;
 /*
 To set the minimum and maximum number of pixels the racers move, edit the two following formulas for (maximum - minimum) + minimum
 */
-var randNum1 = Math.Floor(Math.random() * (13 - 1 ) + 1);
-var randNum2 = Math.Floor(Math.random() * (13 - 1 ) + 1);
+var randNum1 = Math.floor(Math.random() * (13 - 1 ) + 1);
+var randNum2 = Math.floor(Math.random() * (13 - 1 ) + 1);
 
 /*
 Create new coordinates for the characters by adding the random number generated for each character to the character's
