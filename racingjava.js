@@ -46,7 +46,7 @@ This function sets the graphics for racing start and begins the racing
 */
 function startRace(){
 var xwidth = parseInt(windWidth);
-contImg.src = "green_light1.png";
+contImage.src = "green_light1.png";
 gary.style.left = 0px;
 gary1.style.left = 0px;
 racetrack.style.backgroundColor = #000000;
@@ -90,7 +90,7 @@ if(x1 >= xfinal || x2 >= xfinal){
   if(x1 >= xfinal && x2 >= xfinal){
     banner.src = "RacingBanners_Tied.png";
    }
- contImg.src = "red_light.png";
+ contImage.src = "red_light.png";
  racetrack.style.backgroundColor = "transparent";
 }
 
