@@ -15,6 +15,36 @@ Variables defined that need to carry values between functions
 var windWidth;
 var aniTimer;
 
+/* 
+Gets width of the browser window
+*/
+if(self.innerWidth){
+  windWidth = self.innerWidth;
+}
+if(document.documentElement && document.documentElement.clientWidth){
+  windWidth = document.documentElement.clientWidth;
+}
+if(document.body){
+  windWidth = document.body.clientWidth;
+}
+banners.width = windWidth;
+racetrack.width = windWidth;
+contField.width = windWidth;
+
+/* 
+If the browser window is less than 800px in width then display an error message
+*/
+if(windWidth < 800){
+  racetrack.style.display = "none";
+  contField.style.display = "none";
+  resError.style.display = "block";
+  resError.width = windWidth;
+}
+/*
+If the browser is between 800px and 1200px then use smaller character graphics
+*/
+if(windWidth >= 800 && windWidth < 1200){
+  }
 /*
 This function sets the graphics for racing start and begins the racing
 */
