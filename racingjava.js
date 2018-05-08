@@ -113,4 +113,4 @@ if(x1 < xfinal && x2 < xfinal){
    }
    aniTimer = setTimeout(raceCont, 25);
 }
-  
+}
