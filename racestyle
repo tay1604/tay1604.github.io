@@ -53,7 +53,7 @@ div.control {
   left: 10px;
   }
 
-#gary {
+#gary1 {
   position: absolute;
   top: 140px;
   left: 10px;
