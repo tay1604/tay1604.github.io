@@ -1,7 +1,7 @@
 /* author: Taylor Mauldin
 */
 banners = document.getElementById("banners")
-banner = document.getElemenyById"banner");
+banner = document.getElemenyById("banner");
 racetrack = document.getElementById("racetrack");
 resError = document.getElementById("resError");
 gary = document.getElementById("gary");
