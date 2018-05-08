@@ -45,6 +45,7 @@ if(windWidth < 800){
 This function sets the graphics for racing start and begins the racing
 */
 function startRace(){
+banner.src = "title_clipart.png";
 var xwidth = parseInt(windWidth);
 contImage.src = "green_light1.png";
 gary.style.left = "0px";
