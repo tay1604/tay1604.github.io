@@ -68,6 +68,7 @@ To set the minimum and maximum number of pixels the racers move, edit the two fo
 var randNum1 = Math.floor(Math.random() * (13 - 1 ) + 1);
 var randNum2 = Math.floor(Math.random() * (13 - 1 ) + 1);
 
+xfinal = (xwidth - 100);
 /*
 Create new coordinates for the characters by adding the random number generated for each character to the character's
 current x coordinates
