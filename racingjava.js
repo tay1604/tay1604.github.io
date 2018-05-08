@@ -47,9 +47,9 @@ This function sets the graphics for racing start and begins the racing
 function startRace(){
 var xwidth = parseInt(windWidth);
 contImage.src = "green_light1.png";
-gary.style.left = 0px;
-gary1.style.left = 0px;
-racetrack.style.backgroundColor = #000000;
+gary.style.left = "0px";
+gary1.style.left = "0px";
+racetrack.style.backgroundColor = "#000000";
 raceCont();
 }
 
