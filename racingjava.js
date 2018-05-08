@@ -1,11 +1,11 @@
 /* author: Taylor Mauldin
 */
 banners = document.getElementById("banners")
-banner = document.getElemenyById("banner");
+banner = document.getElementById("banner");
 racetrack = document.getElementById("racetrack");
 resError = document.getElementById("resError");
 gary = document.getElementById("gary");
-gary1 = document.getElemenById("gary1");
+gary1 = document.getElementById("gary1");
 contField = document.getElementById("control");
 contImage = document.getElementById("controls");
 
